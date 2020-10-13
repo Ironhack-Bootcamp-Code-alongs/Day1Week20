@@ -20,6 +20,8 @@ app.use(
   })
 );
 
+app.use("/api", require("./routes"));
+
 // Time to have fun implementing stuff, like routes and all that fun stuff
 
 module.exports = app;
